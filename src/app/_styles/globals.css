@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.active-link {
+  color: rgb(64, 174, 247);
+  background-color: rgb(160, 213, 248);
+}
