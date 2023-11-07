@@ -36,13 +36,13 @@ export default function Page({ params }: { params: { slug: string } }) {
             <h3>Purpose:</h3>
             <p>Risk Mitigation: Discovering and addressing vulnerabilities before malicious actors can exploit them.</p>
             <br></br>
-            <p>Security Enhancement: Strengthening the security posture of an organization's digital infrastructure.</p>
+            <p>Security Enhancement: Strengthening the security posture of an organization&rsquo;s digital infrastructure.</p>
           </li>
           <li>
             <h3>Methodologies:</h3>
             <p>Black Box Testing: Simulates an attack by an outsider with no prior knowledge of the system.</p>
             <br></br>
-            <p>White Box Testing: Testers have full knowledge of the system's architecture and source code.</p>
+            <p>White Box Testing: Testers have full knowledge of the system&rsquo;s architecture and source code.</p>
             <br></br>
             <p>Gray Box Testing: Testers have partial knowledge of the system, often reflecting real-world scenarios.</p>
           </li>
@@ -52,7 +52,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <ol>
           <li>
             <h3>Explanation:</h3>
-            <p>Vulnerability assessment is a systematic evaluation of an organization's digital infrastructure to identify weaknesses, security gaps, and potential points of exploitation.</p>
+            <p>Vulnerability assessment is a systematic evaluation of an organization&rsquo;s digital infrastructure to identify weaknesses, security gaps, and potential points of exploitation.</p>
           </li>
           <li className="list-decimal">
             <h3>Steps in Vulnerability Assessment:</h3>
@@ -98,13 +98,13 @@ export default function Page({ params }: { params: { slug: string } }) {
             <h3>Purpose:</h3>
             <p>Risk Mitigation: Discovering and addressing vulnerabilities before malicious actors can exploit them.</p>
             <br></br>
-            <p>Security Enhancement: Strengthening the security posture of an organization's digital infrastructure.</p>
+            <p>Security Enhancement: Strengthening the security posture of an organization&rsquo;s digital infrastructure.</p>
           </li>
           <li>
             <h3>Methodologies:</h3>
             <p>Black Box Testing: Simulates an attack by an outsider with no prior knowledge of the system.</p>
             <br></br>
-            <p>White Box Testing: Testers have full knowledge of the system's architecture and source code.</p>
+            <p>White Box Testing: Testers have full knowledge of the system&rsquo;s architecture and source code.</p>
             <br></br>
             <p>Gray Box Testing: Testers have partial knowledge of the system, often reflecting real-world scenarios.</p>
           </li>

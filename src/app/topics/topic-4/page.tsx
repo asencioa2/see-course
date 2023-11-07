@@ -97,7 +97,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           <li>
             <h3>Applying Ethical Decision-Making Frameworks:</h3>
             <h4>1. Privacy and Data Handling:</h4>
-            <p>Rights-Based Approach: Protecting individuals' right to privacy and data security.</p>
+            <p>Rights-Based Approach: Protecting individuals&rsquo; right to privacy and data security.</p>
             <br></br>
             <p>Virtue Ethics: Cultivating virtues like integrity and responsibility in handling sensitive information.</p>
             <h4>2. Algorithmic Fairness:</h4>

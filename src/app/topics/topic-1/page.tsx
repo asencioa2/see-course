@@ -75,7 +75,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
           <li>
             <h3>Data Privacy vs. Functionality:</h3>
-            <p>Developers must strike a balance between providing robust functionality and safeguarding users' data and privacy.</p>
+            <p>Developers must strike a balance between providing robust functionality and safeguarding users&rsquo; data and privacy.</p>
           </li>
           <li>
             <h3>Open Source vs. Proprietary Software:</h3>

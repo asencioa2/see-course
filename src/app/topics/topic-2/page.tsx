@@ -60,7 +60,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
           <li>
             <h3>Application in Software Engineering:</h3>
-            <p>In the software industry, virtue ethics encourages developers to prioritize qualities that promote trust and professionalism. Acting with integrity in code development, being transparent about limitations, and taking responsibility for one's work exemplify virtue-based decision-making.</p>
+            <p>In the software industry, virtue ethics encourages developers to prioritize qualities that promote trust and professionalism. Acting with integrity in code development, being transparent about limitations, and taking responsibility for one&rsquo;s work exemplify virtue-based decision-making.</p>
           </li>
         </ol>
 

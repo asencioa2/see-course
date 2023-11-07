@@ -30,7 +30,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <ol>
           <li>
             <h3>Explanation:</h3>
-            <p>Data privacy involves the protection of an individual's personal information, ensuring that it is handled with confidentiality, integrity, and security.</p>
+            <p>Data privacy involves the protection of an individual&rsquo;s personal information, ensuring that it is handled with confidentiality, integrity, and security.</p>
           </li>
           <li>
             <h3>Key Components:</h3>

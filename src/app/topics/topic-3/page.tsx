@@ -63,7 +63,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <ol>
           <li>
             <h3>Explanation:</h3>
-            <p>Respecting privacy means safeguarding individuals' rights to control their personal information and ensuring it is collected, stored, and processed in a responsible manner.</p>
+            <p>Respecting privacy means safeguarding individuals&rsquo; rights to control their personal information and ensuring it is collected, stored, and processed in a responsible manner.</p>
           </li>
           <li>
             <h3>Application in Software Engineering:</h3>
@@ -79,7 +79,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <ol>
           <li>
             <h3>Explanation:</h3>
-            <p>Accountability involves taking ownership of one's actions, decisions, and their consequences. It entails acknowledging mistakes and rectifying them.</p>
+            <p>Accountability involves taking ownership of one&rsquo;s actions, decisions, and their consequences. It entails acknowledging mistakes and rectifying them.</p>
           </li>
           <li>
             <h3>Application in Software Engineering:</h3>

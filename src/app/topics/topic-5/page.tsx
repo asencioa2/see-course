@@ -56,7 +56,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <ol>
           <li>
             <h3>Explanation:</h3>
-            <p>Data privacy and protection laws regulate the collection, processing, and storage of personal data to safeguard individuals' rights and privacy.</p>
+            <p>Data privacy and protection laws regulate the collection, processing, and storage of personal data to safeguard individuals&rsquo; rights and privacy.</p>
           </li>
           <li>
             <h3>Key Regulations:</h3>

@@ -42,7 +42,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
           <li>
             <h3>Application in Software Development:</h3>
-            <p>Empathetic Design: Designing interfaces and features with the user's perspective and experience in mind.</p>
+            <p>Empathetic Design: Designing interfaces and features with the user&rsquo;s perspective and experience in mind.</p>
             <br></br>
             <p>User Testing: Conducting usability tests to validate design choices and identify areas for improvement.</p>
           </li>
@@ -122,7 +122,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
           <li>
             <h3>Application in Software Marketing:</h3>
-            <p>Clear Documentation and Descriptions: Ensure that product descriptions and documentation accurately reflect the software's capabilities.</p>
+            <p>Clear Documentation and Descriptions: Ensure that product descriptions and documentation accurately reflect the software&rsquo;s capabilities.</p>
             <br></br>
             <p>Transparent Pricing and Licensing: Clearly communicate pricing and licensing terms to potential customers.</p>
           </li>

@@ -36,7 +36,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             <h3>Key Traits of Ethical Leaders:</h3>
             <p>Integrity: Upholding moral and ethical principles in all actions and decisions.</p>
             <br></br>
-            <p>Accountability: Taking responsibility for one's actions and the consequences of those actions.</p>
+            <p>Accountability: Taking responsibility for one&rsquo;s actions and the consequences of those actions.</p>
             <br></br>
             <p>Empathy: Understanding and considering the perspectives and feelings of others.</p>
             <br></br>
@@ -70,7 +70,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             <h3>Building an Ethical Organizational Culture:</h3>
             <p>Lead by Example: Leaders should consistently demonstrate ethical behavior, serving as role models for employees.</p>
             <br></br>
-            <p>Communicate Ethical Expectations: Clearly articulate the organization's values and expectations for ethical conduct.</p>
+            <p>Communicate Ethical Expectations: Clearly articulate the organization&rsquo;s values and expectations for ethical conduct.</p>
             <br></br>
             <p>Provide Resources and Training: Equip employees with the knowledge and tools to make ethical decisions.</p>
           </li>
