@@ -18,10 +18,8 @@ export default function DashboardLayout({
   }) {
     return (
       <section>
-        <Navbar/>
-        <div className='flex mx-auto'>
-            <Sidebar/>
-            <div style={{paddingRight: "5rem"}} className='max-w-screen-xl mx-auto w-full'>{children}</div>
+        <div>
+            {children}
         </div>
         
       </section>

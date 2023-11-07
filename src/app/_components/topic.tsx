@@ -1,12 +1,13 @@
 import Link from 'next/link';
+import '../_styles/topics.css'
 
 
 export default function Announcement(props: {title: string, desc: string, href: string}){
     return (
-        <div className="w-1/3 p-4 ">
+        <div className="w-1/3 px-4 topicCard">
             <Link href={props.href}>
-                <div className="w-full border-[#4e04ff] rounded-lg border-4 pl-4 pt-2 cursor-pointer">
-                    <p className="mb-4">{props.title}</p>
+                <div>
+                    <p className="my-4">{props.title}</p>
                     <p className="mb-6">{props.desc}</p>
                 </div>
             </Link>          

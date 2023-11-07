@@ -1,4 +1,5 @@
 import '../_styles/globals.css'
+import '../_styles/topics.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from "../_components/navbar"
@@ -12,18 +13,16 @@ export const metadata: Metadata = {
 }
 
 export default function DashboardLayout({
-    children,
-  }: {
-    children: React.ReactNode
-  }) {
-    return (
-      <section>
-        <Navbar/>
-        <div className='flex mx-auto'>
-            <Sidebar/>
-            <div style={{paddingRight: "5rem"}} className='max-w-screen-xl mx-auto w-full'>{children}</div>
-        </div>
-        
-      </section>
-    )
-  }
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <section>
+      <div>
+          {children}
+      </div>
+      
+    </section>
+  )
+}

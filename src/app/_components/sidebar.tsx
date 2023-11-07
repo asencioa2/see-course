@@ -1,6 +1,6 @@
 'use client'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHome, faFileAlt, faLock, faCalendarMinus } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faFileAlt, faLock, faCalendarMinus, faQuestion } from '@fortawesome/free-solid-svg-icons'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import "../_styles/globals.css"
@@ -9,10 +9,10 @@ export default function Sidebar(){
     const pathname = usePathname()
 
     return(
-        <nav style={{padding: "1rem 1rem 1rem 0"}} className="flex h-screen w-1/5">
+        <nav className="flex w-1/5">
             <ul className="w-full">
-                <Link href="/dashboard">
-                    <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/dashboard" ? "active-link" : ""}`}>
+                <Link href="/">
+                    <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/" ? "active-link" : ""}`}>
                         <FontAwesomeIcon icon={faHome} style={{width: "1rem", margin: "1rem"}}/>
                         <p>Home</p>
                     </li>
@@ -39,6 +39,12 @@ export default function Sidebar(){
                 <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/resource-list" ? "active-link" : ""}`}>
                         <FontAwesomeIcon icon={faCalendarMinus} style={{width: "1rem", margin: "1rem"}}/>
                         <p>Resource List</p>
+                    </li>
+                </Link> 
+                <Link href="/questionnaire">
+                <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/questionnaire" ? "active-link" : ""}`}>
+                        <FontAwesomeIcon icon={faQuestion} style={{width: "1rem", margin: "1rem"}}/>
+                        <p>Questionnaire</p>
                     </li>
                 </Link> 
             </ul>

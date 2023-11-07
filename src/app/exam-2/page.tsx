@@ -21,10 +21,11 @@ export default function Page() {
 
     return (
         <div>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdBber-U74GlyVnsdxZ2h5Iy8l-sJQjROnPnB8KmARGrOm1hQ/viewform?embedded=true" className="w-full" height={isMobile? "8895":"6895"}>Loading…</iframe>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfUXTqLxjNtEftP7bWO1k38Zu_6iAXYfUxw0lho44uSSMjlsw/viewform?embedded=true" className="w-full" height={isMobile? "8395":"6795"}>Loading…</iframe>
         </div>
     )
 }
+
 
 
 

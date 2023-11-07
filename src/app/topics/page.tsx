@@ -3,7 +3,7 @@ import Topic from "../_components/topic"
 
 export default function Page() {
     return (
-        <section className="flex flex-wrap justify-center">
+        <section className="flex flex-wrap justify-center mt-4">
             <Topic title="Topic 1" desc="Introduction to Software Engineering Ethics" href="/topics/topic-1"/>
             <Topic title="Topic 2" desc="Ethical Theories and Frameworks" href="/topics/topic-2"/>
             <Topic title="Topic 3" desc="Ethical Principles in Software Engineering" href="/topics/topic-3"/>
