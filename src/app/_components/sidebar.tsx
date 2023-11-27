@@ -17,10 +17,10 @@ export default function Sidebar(){
                         <p>Home</p>
                     </li>
                 </Link>
-                <Link href="/topics">
-                <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/topics" ? "active-link" : ""}`}>
+                <Link href="/modules">
+                <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/modules" ? "active-link" : ""}`}>
                         <FontAwesomeIcon icon={faFileAlt} style={{width: "1rem", margin: "1rem"}}/>
-                        <p>Lesson Plans</p>
+                        <p>Modules</p>
                     </li>
                 </Link>
                 <Link href="/exam-1">
@@ -41,10 +41,10 @@ export default function Sidebar(){
                         <p>Resource List</p>
                     </li>
                 </Link> 
-                <Link href="/questionnaire">
-                <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/questionnaire" ? "active-link" : ""}`}>
+                <Link href="/website-feedback">
+                <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/website-feedback" ? "active-link" : ""}`}>
                         <FontAwesomeIcon icon={faQuestion} style={{width: "1rem", margin: "1rem"}}/>
-                        <p>Questionnaire</p>
+                        <p>Website Feedback</p>
                     </li>
                 </Link> 
             </ul>
