@@ -32,87 +32,84 @@ export default function Page({ params }: { params: { slug: string } }) {
   return (
     <div className="flex justify-center">
       <div className="w-4/5">
-        <h1 className="text-center mb-4 mt-4">Topic 1: Introduction to Software Engineering Ethics</h1>
-        <h2>Defining Software Engineering Ethics:</h2>
-        <p className='ml-4'>Software Engineering Ethics refers to the set of moral principles and values that guide the behavior and decisions of professionals in the field of software development. It encompasses the responsibilities and obligations that software engineers have towards their clients, users, colleagues, and the broader society.</p>
+        <h1 className="text-center mb-4 mt-4">Topic 0: Introduction to Software Engineering</h1>
+        <h2>What is Software Engineering:</h2>
+        <p className='ml-4'>Software engineering is a systematic and disciplined approach to developing, designing, testing, and maintaining software systems. It involves applying engineering principles to the entire software development process, from requirements gathering to system maintenance.</p>
 
-        <h2>The Significance of Software Engineering Ethics:</h2>
+        <h2>Key Concepts in Software Engineering:</h2>
         <ol className="ml-2">
           <li>
-            <h3>User Well-being and Safety:</h3>
-            <p className='ml-4'>Ethical software development prioritizes the safety, security, and well-being of end-users. It ensures that software functions as intended and does not pose any harm.</p>
+            <h3>Software Development Life Cycle (SDLC):</h3>
+            <p className='ml-4'>Explanation: SDLC is a process used by software developers to design, develop, and test high-quality software. It typically includes phases such as planning, requirements, design, implementation, testing, deployment, and maintenance.</p>
+            <p className='ml-4'>Importance: Following a structured SDLC ensures a methodical and organized approach to software development, reducing errors and enhancing the overall quality of the software.</p>
           </li>
           <li>
-            <h3>Trust and Reputation:</h3>
-            <p className='ml-4'>Upholding ethical standards is crucial for establishing and maintaining trust with clients, stakeholders, and the public. Companies that adhere to ethical practices are more likely to build a positive reputation.</p>
+            <h3>Requirements Engineering:</h3>
+            <p className='ml-4'>Explanation: This phase involves gathering, analyzing, documenting, and managing the requirements for a software system. It lays the foundation for the entire development process.</p>
+            <p className='ml-4'>Importance: Clear and accurate requirements are essential for building software that meets user expectations and business needs.</p>          
           </li>
           <li>
-            <h3>Legal Compliance:</h3>
-            <p className='ml-4'>Adhering to ethical guidelines helps software development teams avoid legal troubles and liabilities. It ensures that projects are in compliance with relevant laws and regulations.</p>
+            <h3>Software Design:</h3>
+            <p className='ml-4'>Explanation: In this phase, the system's architecture and design are planned based on the gathered requirements. It includes defining the structure, components, modules, interfaces, and data for the system.</p>
+            <p className='ml-4'>Importance: Effective design ensures that the software is scalable, maintainable, and capable of meeting its functional and non-functional requirements.</p>          
           </li>
           <li>
-            <h3>Long-term Viability:</h3>
-            <p className='ml-4'>Ethical practices contribute to the sustainability of software projects. By avoiding shortcuts or questionable tactics, software engineers create a solid foundation for long-term success.</p>
+            <h3>Coding/Implementation:</h3>
+            <p className='ml-4'>Explanation: This is the phase where the actual code is written based on the design specifications. It involves translating the design into a programming language.</p>
+            <p className='ml-4'>Importance: Proper coding practices contribute to software reliability, readability, and ease of maintenance.</p>    
+          </li>
+          <li>
+            <h3>Software Testing:</h3>
+            <p className='ml-4'>Explanation: Testing involves systematically evaluating the software to identify and fix defects. It includes unit testing, integration testing, system testing, and acceptance testing.</p>
+            <p className='ml-4'>Importance: Rigorous testing ensures the software's correctness, reliability, and robustness.</p>    
+          </li>
+          <li>
+            <h3>Software Maintenance:</h3>
+            <p className='ml-4'>Explanation: After deployment, software undergoes maintenance to address bugs, add new features, and adapt to changing requirements.</p>
+            <p className='ml-4'>Importance: Maintenance is crucial for keeping software up-to-date, secure, and aligned with evolving user needs.</p>    
           </li>
         </ol>
 
-        <h2>Core Principles of Software Engineering Ethics:</h2>
+        <h2>Principles of Software Engineering:</h2>
         <ol className="ml-2">
           <li>
-            <h3>Transparency and Honesty:</h3>
-            <p className='ml-4'>Engineers should be transparent about the capabilities and limitations of their software. They must provide accurate information to stakeholders and users.</p>
+            <h3>Modularity:</h3>
+            <p className='ml-4'>Explanation: Breaking down a system into smaller, manageable units or modules. Each module performs a specific function and can be developed and tested independently.</p>
+            <p className='ml-4'>Importance: Modularity enhances code reusability, simplifies testing, and facilitates collaboration among developers.</p>    
           </li>
           <li>
-            <h3>Integrity:</h3>
-            <p className='ml-4'>Software engineers should act with integrity, meaning they should be honest and fair in their dealings. This includes not misrepresenting facts, respecting intellectual property, and avoiding conflicts of interest.</p>
+            <h3>Abstraction:</h3>
+            <p className='ml-4'>Explanation: Simplifying complex systems by focusing on essential properties and ignoring unnecessary details.</p>
+            <p className='ml-4'>Importance: Abstraction allows developers to manage complexity, understand high-level concepts, and improve overall system comprehension.</p>    
           </li>
           <li>
-            <h3>Respect for Privacy:</h3>
-            <p className='ml-4'>Upholding privacy rights is paramount. Engineers should handle sensitive data responsibly and obtain proper consent when collecting, storing, or processing personal information.</p>
+            <h3>Encapsulation:</h3>
+            <p className='ml-4'>Explanation: Bundling data and methods that operate on the data within a single unit, known as a class.</p>
+            <p className='ml-4'>Importance: Encapsulation promotes information hiding, reducing dependencies between different parts of the software.</p>    
           </li>
           <li>
-            <h3>Accountability:</h3>
-            <p className='ml-4'>Engineers should take responsibility for their work. This involves acknowledging and rectifying mistakes, as well as ensuring that software meets the required quality standards.</p>
+            <h3>Hierarchy:</h3>
+            <p className='ml-4'>Explanation: Organizing software components in a hierarchical structure, typically using concepts like classes, objects, and inheritance.</p>
+            <p className='ml-4'>Importance: Hierarchy simplifies system design, promotes code reuse, and enhances maintainability.</p>    
           </li>
         </ol>
 
-        <h2>Ethical Dilemmas in Software Engineering:</h2>
+        <h2>Emerging Trends in Software Engineering:</h2>
         <ol className="ml-2">
           <li>
-            <h3>Balancing Innovation and Safety:</h3>
-            <p className='ml-4'>Engineers may face the dilemma of pushing boundaries to innovate while ensuring the safety and reliability of the software.</p>
+            <h3>Agile Development:</h3>
+            <p className='ml-4'>Explanation: An iterative and flexible approach to software development that emphasizes collaboration, customer feedback, and the ability to respond to change quickly.</p>
+            <p className='ml-4'>Importance: Agile methodologies enhance adaptability, customer satisfaction, and the delivery of incremental, functional software.</p>    
           </li>
           <li>
-            <h3>Data Privacy vs. Functionality:</h3>
-            <p className='ml-4'>Developers must strike a balance between providing robust functionality and safeguarding users&rsquo; data and privacy.</p>
+            <h3>DevOps:</h3>
+            <p className='ml-4'>Explanation: Integrating development and operations teams to improve collaboration and productivity throughout the software development life cycle.</p>
+            <p className='ml-4'>Importance: DevOps practices aim to automate and streamline the software delivery process, reducing errors and accelerating release cycles.</p>    
           </li>
           <li>
-            <h3>Open Source vs. Proprietary Software:</h3>
-            <p className='ml-4'>Choosing between open-source and proprietary solutions involves considering the broader ethical implications of accessibility, ownership, and community contributions.</p>
-          </li>
-          <li>
-            <h3>Responsibility for AI and Automation:</h3>
-            <p className='ml-4'>With the rise of AI, engineers need to grapple with issues like algorithmic bias, fairness, and the potential consequences of autonomous systems.</p>
-          </li>
-        </ol>
-
-        <h2>Establishing a Framework for Ethical Decision-Making:</h2>
-        <ol className="ml-2">
-          <li>
-            <h3>Utilitarianism:</h3>
-            <p className='ml-4'>This approach evaluates the consequences of an action, aiming to maximize overall happiness or minimize overall harm. In software development, this might involve considering the impact on users, stakeholders, and society at large.</p>
-          </li>
-          <li>
-            <h3>Deontology:</h3>
-            <p className='ml-4'>Deontology emphasizes adherence to a set of moral principles or rules, regardless of the outcomes. For instance, respecting user privacy might be a fundamental ethical rule.</p>
-          </li>
-          <li>
-            <h3>Virtue Ethics:</h3>
-            <p className='ml-4'>Virtue ethics focuses on the development of good character traits. Software engineers should cultivate virtues like honesty, integrity, and responsibility in their professional conduct.</p>
-          </li>
-          <li>
-            <h3>Social Contract Theory:</h3>
-            <p className='ml-4'>This theory asserts that ethical actions are those that adhere to a mutually agreed-upon social contract. In software engineering, this could relate to following industry standards and best practices.</p>
+            <h3>Machine Learning in Software Engineering:</h3>
+            <p className='ml-4'>Explanation: Utilizing machine learning algorithms to automate certain software development tasks, enhance decision-making, and improve efficiency.</p>
+            <p className='ml-4'>Importance: Machine learning can optimize code reviews, identify patterns, and predict potential issues, leading to improved software quality.</p>    
           </li>
         </ol>
 
@@ -120,18 +117,18 @@ export default function Page({ params }: { params: { slug: string } }) {
         <div className='flex w-full'>
           <div>
           {
-            hasWindow && <ReactPlayer className="mr-4" url='https://www.youtube.com/watch?v=Ptz-v8GUmFQ' width={580}/>
+            hasWindow && <ReactPlayer className="mr-4" url='https://www.youtube.com/watch?v=O753uuutqH8' width={500}/>
           }
           </div>
           <div>
           {
-            hasWindow && <ReactPlayer className="ml-4" url='https://www.youtube.com/watch?v=K_Uh09RAjR8' width={580}/>
+            hasWindow && <ReactPlayer className="ml-4" url='https://www.youtube.com/watch?v=zOjov-2OZ0E&t=1s' width={500}/>
           }
           </div>
         </div> 
 
         <div className="w-3/5 m-auto mt-8">
-          <iframe title="quiz" src="https://docs.google.com/forms/d/e/1FAIpQLSe_3B-9wcGxI7idUsEhcbx_LhQJQXqsT-tVCl2R04xzvGl0yg/viewform?embedded=true" className="w-full" height="1695">Loading…</iframe>
+          <iframe title="quiz" src="https://docs.google.com/forms/d/e/1FAIpQLSdddXCY9BXJOU-nqK4tcVE6SjOAcmYety2KIZ3rFYKYuhgRpg/viewform?embedded=true" className="w-full" height="1695">Loading…</iframe>
         </div>
 
         <div className='my-12 flex justify-around'>

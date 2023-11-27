@@ -17,7 +17,7 @@ export default function Page({ params }: { params: { slug: string } }) {
     
     //choose the screen size 
     const handleResize = () => {
-    if (window.innerWidth < 940) {
+    if (window.innerWidth < 1500) {
         setIsMobile(true)
     } else {
         setIsMobile(false)
@@ -120,12 +120,12 @@ export default function Page({ params }: { params: { slug: string } }) {
         <div className='flex w-full'>
           <div>
           {
-            hasWindow && <ReactPlayer className="mr-4" url='https://www.youtube.com/watch?v=Ptz-v8GUmFQ' width={580}/>
+            hasWindow && <ReactPlayer className="mr-4" url='https://www.youtube.com/watch?v=Ptz-v8GUmFQ' width={500}/>
           }
           </div>
           <div>
           {
-            hasWindow && <ReactPlayer className="ml-4" url='https://www.youtube.com/watch?v=K186LsrXmgs' width={580}/>
+            hasWindow && <ReactPlayer className="ml-4" url='https://www.youtube.com/watch?v=K186LsrXmgs' width={500}/>
           }
           </div>
         </div> 

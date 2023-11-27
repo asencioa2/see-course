@@ -128,12 +128,12 @@ export default function Page({ params }: { params: { slug: string } }) {
         <div className='flex w-full'>
           <div>
           {
-            hasWindow && <ReactPlayer className="mr-4" url='https://www.youtube.com/watch?v=Nmsl1xVx7Ec' width={580}/>
+            hasWindow && <ReactPlayer className="mr-4" url='https://www.youtube.com/watch?v=Nmsl1xVx7Ec' width={500}/>
           }
           </div>
           <div>
           {
-            hasWindow && <ReactPlayer className="ml-4" url='https://www.youtube.com/watch?v=BrPPyxkkzcE' width={580}/>
+            hasWindow && <ReactPlayer className="ml-4" url='https://www.youtube.com/watch?v=BrPPyxkkzcE' width={500}/>
           }
           </div>
         </div>
