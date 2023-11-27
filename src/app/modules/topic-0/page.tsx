@@ -50,7 +50,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
           <li>
             <h3>Software Design:</h3>
-            <p className='ml-4'>Explanation: In this phase, the system's architecture and design are planned based on the gathered requirements. It includes defining the structure, components, modules, interfaces, and data for the system.</p>
+            <p className='ml-4'>Explanation: In this phase, the system&rsquo;s architecture and design are planned based on the gathered requirements. It includes defining the structure, components, modules, interfaces, and data for the system.</p>
             <p className='ml-4'>Importance: Effective design ensures that the software is scalable, maintainable, and capable of meeting its functional and non-functional requirements.</p>          
           </li>
           <li>
@@ -61,7 +61,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           <li>
             <h3>Software Testing:</h3>
             <p className='ml-4'>Explanation: Testing involves systematically evaluating the software to identify and fix defects. It includes unit testing, integration testing, system testing, and acceptance testing.</p>
-            <p className='ml-4'>Importance: Rigorous testing ensures the software's correctness, reliability, and robustness.</p>    
+            <p className='ml-4'>Importance: Rigorous testing ensures the software&rsquo;s correctness, reliability, and robustness.</p>    
           </li>
           <li>
             <h3>Software Maintenance:</h3>
