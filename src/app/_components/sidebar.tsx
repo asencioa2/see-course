@@ -17,16 +17,16 @@ export default function Sidebar(){
                         <p>Home</p>
                     </li>
                 </Link>
-                <Link href="/modules">
-                <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/modules" ? "active-link" : ""}`}>
-                        <FontAwesomeIcon icon={faFileAlt} style={{width: "1rem", margin: "1rem"}}/>
-                        <p>Modules</p>
-                    </li>
-                </Link>
                 <Link href="/exam-1">
                 <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/exam-1" ? "active-link" : ""}`}>
                         <FontAwesomeIcon icon={faLock} style={{width: "1rem", margin: "1rem"}}/>
                         <p>Exam 1</p>
+                    </li>
+                </Link>
+                <Link href="/modules">
+                <li className={`flex items-center h-12 hover:bg-[#4c586e] cursor-pointer ${pathname == "/modules" ? "active-link" : ""}`}>
+                        <FontAwesomeIcon icon={faFileAlt} style={{width: "1rem", margin: "1rem"}}/>
+                        <p>Modules</p>
                     </li>
                 </Link>
                 <Link href="/exam-2">
