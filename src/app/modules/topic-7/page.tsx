@@ -40,7 +40,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <ol className="ml-2">
           <li>
             <h3>Explanation:</h3>
-            <p className='ml-4'>Data privacy is the safeguarding of an individual's personal information, emphasizing the need to handle such data with confidentiality, integrity, and security. It is a critical aspect of ethical and responsible data management, ensuring that individuals maintain control over their sensitive information and are protected from unauthorized access or misuse.</p>
+            <p className='ml-4'>Data privacy is the safeguarding of an individual&apos;s personal information, emphasizing the need to handle such data with confidentiality, integrity, and security. It is a critical aspect of ethical and responsible data management, ensuring that individuals maintain control over their sensitive information and are protected from unauthorized access or misuse.</p>
           </li>
           <li>
             <h3>Key Components:</h3>
@@ -52,9 +52,9 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
           <li>
             <h3>Application in Various Industries:</h3>
-            <p className='ml-4'>Healthcare: In the healthcare industry, data privacy is paramount for ensuring patient confidentiality. Compliance with regulations such as the Health Insurance Portability and Accountability Act (HIPAA) is essential to protect patients' medical information and maintain the trust of individuals seeking healthcare services.</p>
+            <p className='ml-4'>Healthcare: In the healthcare industry, data privacy is paramount for ensuring patient confidentiality. Compliance with regulations such as the Health Insurance Portability and Accountability Act (HIPAA) is essential to protect patients&apos; medical information and maintain the trust of individuals seeking healthcare services.</p>
             <br></br>
-            <p className='ml-4'>E-commerce: Data privacy is critical in e-commerce, where safeguarding customer payment information and transaction histories is of utmost importance. Adhering to privacy principles ensures that customer data is handled securely, promoting trust in online transactions and fostering a secure digital marketplace. Data privacy practices, therefore, have broad applications across diverse industries, safeguarding sensitive information and respecting individuals' privacy rights.</p>
+            <p className='ml-4'>E-commerce: Data privacy is critical in e-commerce, where safeguarding customer payment information and transaction histories is of utmost importance. Adhering to privacy principles ensures that customer data is handled securely, promoting trust in online transactions and fostering a secure digital marketplace. Data privacy practices, therefore, have broad applications across diverse industries, safeguarding sensitive information and respecting individuals&apos; privacy rights.</p>
           </li>
         </ol>
 
@@ -96,7 +96,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             <h3>Application in Service Providers:</h3>
             <p className='ml-4'>Social Media Platforms: In the context of social media platforms, obtaining informed consent involves ensuring that users are aware of how their data is used, particularly for targeted advertising and third-party applications. Transparent communication about data practices builds user trust and allows individuals to make informed decisions about their participation on these platforms.</p>
             <br></br>
-            <p className='ml-4'>Online Retailers: For online retailers, obtaining informed consent includes clearly communicating how customer data will be used for transactional purposes and marketing. This could involve informing customers about the use of their data for order fulfillment, personalized recommendations, or promotional campaigns. Respecting customers' privacy choices and preferences contributes to a positive and trustworthy online shopping experience.</p>
+            <p className='ml-4'>Online Retailers: For online retailers, obtaining informed consent includes clearly communicating how customer data will be used for transactional purposes and marketing. This could involve informing customers about the use of their data for order fulfillment, personalized recommendations, or promotional campaigns. Respecting customers&apos; privacy choices and preferences contributes to a positive and trustworthy online shopping experience.</p>
           </li>
         </ol>
 

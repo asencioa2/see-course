@@ -75,7 +75,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
           <li>
             <h3>Application in AI and ML:</h3>
-            <p className='ml-4'>Interpretability Techniques: Utilizing interpretability techniques such as LIME (Local Interpretable Model-agnostic Explanations) or SHAP (Shapley Additive Explanations) provides insights into model predictions. These techniques offer post-hoc interpretability, allowing stakeholders to understand the model's behavior without requiring intricate knowledge of its internal workings.</p>
+            <p className='ml-4'>Interpretability Techniques: Utilizing interpretability techniques such as LIME (Local Interpretable Model-agnostic Explanations) or SHAP (Shapley Additive Explanations) provides insights into model predictions. These techniques offer post-hoc interpretability, allowing stakeholders to understand the model&apos;s behavior without requiring intricate knowledge of its internal workings.</p>
             <br></br>
             <p className='ml-4'>Explainable AI (XAI): Implementing models and algorithms designed for explainability is a proactive approach to transparency. Explainable AI (XAI) focuses on creating models that produce interpretable and human-understandable results, making the decision-making process more transparent and accessible to a broader audience. These approaches contribute to building ethical AI systems that align with principles of fairness, accountability, and user trust.</p>
           </li>
@@ -85,7 +85,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <ol className="ml-2">
           <li>
             <h3>Explanation:</h3>
-            <p className='ml-4'>AI systems often rely on extensive datasets, some of which may contain sensitive or personal information. Ensuring the privacy and protection of individuals' data is a critical ethical consideration in AI development. This involves implementing principles and practices that safeguard the confidentiality and security of personal information, balancing the need for data-driven insights with the imperative to respect individuals' privacy rights.</p>
+            <p className='ml-4'>AI systems often rely on extensive datasets, some of which may contain sensitive or personal information. Ensuring the privacy and protection of individuals&apos; data is a critical ethical consideration in AI development. This involves implementing principles and practices that safeguard the confidentiality and security of personal information, balancing the need for data-driven insights with the imperative to respect individuals&apos; privacy rights.</p>
           </li>
           <li>
             <h3>Key Principles:</h3>

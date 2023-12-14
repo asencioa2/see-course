@@ -58,7 +58,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             <br></br>
             <p className='ml-4'>Open Source Licensing:  The application of IP rights in open source software is evident through various licenses like GPL or MIT. These licenses grant specific permissions and outline restrictions for using and distributing open-source software, balancing the principles of collaboration with the protection of intellectual property rights.</p>
             <br></br>
-            <p className='ml-4'>Patents: While patents can apply to novel software-related inventions, the patenting of software is a complex and debated area. The controversy arises from concerns about the potential hindrance to innovation and the balance between protecting intellectual property and fostering a collaborative software development environment. Understanding and navigating the landscape of intellectual property rights is crucial for ethical and legal software development, ensuring that creators' rights are respected while fostering a collaborative and innovative ecosystem within the software engineering community.</p>
+            <p className='ml-4'>Patents: While patents can apply to novel software-related inventions, the patenting of software is a complex and debated area. The controversy arises from concerns about the potential hindrance to innovation and the balance between protecting intellectual property and fostering a collaborative software development environment. Understanding and navigating the landscape of intellectual property rights is crucial for ethical and legal software development, ensuring that creators&apos; rights are respected while fostering a collaborative and innovative ecosystem within the software engineering community.</p>
           </li>
         </ol>
 
@@ -72,15 +72,15 @@ export default function Page({ params }: { params: { slug: string } }) {
             <h3>Key Regulations:</h3>
             <p className='ml-4'>General Data Protection Regulation (GDPR): GDPR is a comprehensive regulation that applies to the processing of personal data within the European Union and the European Economic Area. It establishes principles for lawful and transparent data processing, giving individuals control over their personal information and requiring organizations to implement measures to protect data privacy.</p>
             <br></br>
-            <p className='ml-4'>California Consumer Privacy Act (CCPA): CCPA grants data privacy rights to California residents and imposes obligations on businesses handling their personal information. It provides individuals with the right to know what personal information is collected and how it's used, along with the option to opt-out of the sale of their data.</p>
+            <p className='ml-4'>California Consumer Privacy Act (CCPA): CCPA grants data privacy rights to California residents and imposes obligations on businesses handling their personal information. It provides individuals with the right to know what personal information is collected and how it&apos;s used, along with the option to opt-out of the sale of their data.</p>
             <br></br>
-            <p className='ml-4'>Health Insurance Portability and Accountability Act (HIPAA): HIPAA regulates the handling of healthcare data in the United States. It sets standards for the secure electronic exchange of healthcare information, aiming to protect the privacy and security of patients' sensitive health data.</p>
+            <p className='ml-4'>Health Insurance Portability and Accountability Act (HIPAA): HIPAA regulates the handling of healthcare data in the United States. It sets standards for the secure electronic exchange of healthcare information, aiming to protect the privacy and security of patients&apos; sensitive health data.</p>
           </li>
           <li>
             <h3>Application in Software Engineering:</h3>
             <p className='ml-4'>Data Encryption: In software engineering, implementing strong encryption protocols is crucial to protect sensitive information during transmission and storage. Encryption ensures that even if unauthorized access occurs, the intercepted data remains indecipherable, enhancing overall data security.</p>
             <br></br>
-            <p className='ml-4'>User Consent: Obtaining clear and informed consent from users before collecting, storing, or processing their personal data is a fundamental practice. This aligns with ethical considerations and legal requirements, respecting individuals' autonomy over their data and promoting transparency in data handling practices.</p>
+            <p className='ml-4'>User Consent: Obtaining clear and informed consent from users before collecting, storing, or processing their personal data is a fundamental practice. This aligns with ethical considerations and legal requirements, respecting individuals&apos; autonomy over their data and promoting transparency in data handling practices.</p>
             <br></br>
             <p className='ml-4'>Data Access Controls: Restricting access to personal data to authorized personnel only is a key practice in software engineering. Implementing stringent access controls helps prevent unauthorized individuals from accessing sensitive information, adding an extra layer of protection against data breaches. This practice aligns with the principle of least privilege, ensuring that individuals only have access to the data necessary for their specific roles and responsibilities.</p>
           </li>
@@ -96,7 +96,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             <h3>Key Regulations:</h3>
             <p className='ml-4'>Payment Card Industry Data Security Standard (PCI DSS): PCI DSS establishes requirements for the secure handling of credit card information. Compliance with these standards is essential for entities involved in credit card transactions, ensuring that sensitive financial data is protected against unauthorized access and potential fraud.</p>
             <br></br>
-            <p className='ml-4'>Health Information Portability and Accountability Act (HIPAA): HIPAA includes provisions for securing healthcare data. Entities handling health information must adhere to HIPAA regulations, implementing safeguards to protect the privacy and security of patients' sensitive health data.</p>
+            <p className='ml-4'>Health Information Portability and Accountability Act (HIPAA): HIPAA includes provisions for securing healthcare data. Entities handling health information must adhere to HIPAA regulations, implementing safeguards to protect the privacy and security of patients&apos; sensitive health data.</p>
             <br></br>
             <p className='ml-4'>ISO/IEC 27001: ISO/IEC 27001 provides a comprehensive framework for establishing, implementing, maintaining, and continually improving an information security management system. This international standard helps organizations systematically manage information security risks and ensures a proactive approach to cybersecurity.</p>
           </li>
@@ -120,7 +120,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             <h3>Examples:</h3>
             <p className='ml-4'>Finance: Financial institutions operate under regulations such as the Sarbanes-Oxley Act (SOX) and the Dodd-Frank Wall Street Reform and Consumer Protection Act. These regulations impose stringent requirements to enhance transparency, accountability, and stability within the financial sector, influencing how software is developed, deployed, and maintained in this industry.</p>
             <br></br>
-            <p className='ml-4'>Healthcare: The Health Insurance Portability and Accountability Act (HIPAA) is a critical regulation for healthcare software systems. It sets strict standards for the protection of patients' health information, emphasizing the importance of privacy and security in the development and operation of healthcare-related software.</p>
+            <p className='ml-4'>Healthcare: The Health Insurance Portability and Accountability Act (HIPAA) is a critical regulation for healthcare software systems. It sets strict standards for the protection of patients&apos; health information, emphasizing the importance of privacy and security in the development and operation of healthcare-related software.</p>
           </li>
           <li>
             <h3>Application in Software Engineering:</h3>

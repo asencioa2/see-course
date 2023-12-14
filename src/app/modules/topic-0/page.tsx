@@ -52,7 +52,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
           <li>
             <h3>Software Design:</h3>
-            <p className='ml-4'>Explanation: The software design phase involves the careful planning of the system's architecture and design based on the gathered requirements. It encompasses defining the structure, components, modules, interfaces, and data architecture of the software. The goal is to create a blueprint that guides the actual implementation phase.</p>
+            <p className='ml-4'>Explanation: The software design phase involves the careful planning of the system&apos;s architecture and design based on the gathered requirements. It encompasses defining the structure, components, modules, interfaces, and data architecture of the software. The goal is to create a blueprint that guides the actual implementation phase.</p>
             <br></br>
             <p className='ml-4'>Importance: Effective software design is critical for the success of a project. It ensures that the software is not only functional but also scalable, maintainable, and capable of meeting both functional and non-functional requirements. A well-thought-out design facilitates efficient coding, reduces development time, and contributes to the long-term viability of the software.</p>          
           </li>
@@ -64,7 +64,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           </li>
           <li>
             <h3>Software Testing:</h3>
-            <p className='ml-4'>Explanation: Software testing is a systematic process of evaluating the software to identify and fix defects or issues. It includes various levels of testing such as unit testing, where individual components are tested, integration testing, which examines interactions between integrated components, system testing to verify the entire system's functionality, and acceptance testing to ensure the software meets user requirements.</p>
+            <p className='ml-4'>Explanation: Software testing is a systematic process of evaluating the software to identify and fix defects or issues. It includes various levels of testing such as unit testing, where individual components are tested, integration testing, which examines interactions between integrated components, system testing to verify the entire system&apos;s functionality, and acceptance testing to ensure the software meets user requirements.</p>
             <br></br>
             <p className='ml-4'>Importance: Rigorous testing is integral to ensuring the quality and reliability of the software. Thorough testing not only detects and rectifies defects but also validates that the software performs as expected under different conditions. By addressing potential issues early in the development process, software testing contributes to the overall correctness, reliability, and robustness of the final software product.</p>    
           </li>
@@ -108,7 +108,7 @@ export default function Page({ params }: { params: { slug: string } }) {
         <ol className="ml-2">
           <li>
             <h3>Agile Development:</h3>
-            <p className='ml-4'>Explanation: Agile development is an iterative and flexible approach to software development that prioritizes collaboration, customer feedback, and the ability to respond to change quickly. It involves breaking down the development process into small, manageable increments, allowing for continuous adaptation and improvement throughout the project's lifecycle.</p>
+            <p className='ml-4'>Explanation: Agile development is an iterative and flexible approach to software development that prioritizes collaboration, customer feedback, and the ability to respond to change quickly. It involves breaking down the development process into small, manageable increments, allowing for continuous adaptation and improvement throughout the project&apos;s lifecycle.</p>
             <br></br>
             <p className='ml-4'>Importance: The significance of agile methodologies lies in their ability to enhance adaptability, customer satisfaction, and the timely delivery of incremental, functional software. Agile practices foster a dynamic and responsive development environment, ensuring that software aligns closely with user needs, and allowing teams to make adjustments based on evolving requirements.</p>    
           </li>

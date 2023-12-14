@@ -107,7 +107,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           <li>
             <h3>Applying Ethical Decision-Making Frameworks:</h3>
             <h4>1. Privacy and Data Handling:</h4>
-            <p className='ml-4'>Rights-Based Approach: In the context of privacy and data handling, a rights-based approach involves protecting individuals' right to privacy and data security. This framework emphasizes the inviolability of certain rights and requires decision-makers to prioritize the safeguarding of personal information, respecting the autonomy and dignity of individuals.</p>
+            <p className='ml-4'>Rights-Based Approach: In the context of privacy and data handling, a rights-based approach involves protecting individuals&apos; right to privacy and data security. This framework emphasizes the inviolability of certain rights and requires decision-makers to prioritize the safeguarding of personal information, respecting the autonomy and dignity of individuals.</p>
             <br></br>
             <p className='ml-4'>Virtue Ethics: Virtue ethics, when applied to privacy and data handling, focuses on cultivating virtues like integrity and responsibility in the handling of sensitive information. This ethical framework emphasizes the importance of developing good character traits, encouraging individuals to act with honesty and conscientiousness in managing and safeguarding data. The virtues cultivated in this approach contribute to a culture of trust and responsibility in handling privacy-related matters.</p>
             <h4>2. Algorithmic Fairness:</h4>
